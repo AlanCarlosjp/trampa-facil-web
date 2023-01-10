@@ -1,9 +1,13 @@
 import React from 'react';
+import './styles.scss';
+
 
 
 const Home = () => {
+
+  
     return (
-        <div className="container mt-5">
+        <div className="container mt-5 ">
       <div className="row">
         <div className="col-md-6">
           <h1>Bem-vindo ao Trampa Facil</h1>

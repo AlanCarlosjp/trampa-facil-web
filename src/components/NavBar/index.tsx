@@ -18,7 +18,7 @@ const NavBar = () => {
 
       <div className="nav nav-tabs ml-4">
         <li className="nav-item">
-          <Link to="/home">
+          <Link to="/">
             <a className="nav-link"
               aria-current="page" href="#">Home</a>
           </Link>

@@ -7,11 +7,18 @@ import Routes from './pages/Routes';
 
 
 function App() {
+
+  window.onload = function() {
+    const element = document.querySelector('.cont') as HTMLElement;
+    element.classList.add('fade-in');
+  };
+
+
   return (
-    <>
+    <div className='cont'>
       <Routes />
       <ToastContainer />
-    </>
+    </div>
   );
 }
 

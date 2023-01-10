@@ -11,7 +11,7 @@ const Routes = () => {
     return (
         <Router history={history}>
             <NavBar />
-            <Route path="/Home" component={Home} />
+            <Route path="/" component={Home} exact/>
             <Route path="/trabalhos" component={Trabalhos} />
             <Route path="/perfil" component={Perfil} />
         </Router>
